@@ -1,6 +1,6 @@
 pipeline {
   environment {
-    imagename = "rohan0597/docker-jenkins"
+    imagename = "rohan0597/docker-java"
     registryCredential = 'dockerhub'
     dockerImage = ''
   }
